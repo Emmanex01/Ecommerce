@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cate{
+    @apply active:bg-yellow-900 active:transition-all active:duration-200 active:ease-in-out p-2 cursor-pointer hover:bg-slate-500 rounded-sm sm:rounded-full
+}
+
+.btn{
+    @apply w-10 h-10 bg-slate-200 flex justify-center items-center hover:bg-slate-500 rounded-sm
+}
+
+.Thead{
+    @apply text-start py-6
+}
+
+
+body{
+    position: relative;
+}
